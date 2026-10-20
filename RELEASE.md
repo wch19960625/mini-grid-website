@@ -23,7 +23,12 @@
 
 ## 发布结果
 
-首次 GitHub Pages 部署与公开资源回读将在发布后填入本节；本地验证不等同于线上已发布。
+- 已成功上传至公开仓库 `wch19960625/mini-grid-website` 的 `main` 分支，首次网站提交为 `94ca02c6efb42b59385a0f3fffc81e7eff6a4558`。
+- 首次自动发布成功：<https://github.com/wch19960625/mini-grid-website/actions/runs/39354983870>。
+- 已上线：<https://wch19960625.github.io/mini-grid-website/>，HTTPS 访问首页返回 200。
+- 首页、CSS、JavaScript、五张 WebP、favicon、两种字体、robots.txt 与 sitemap.xml 共 13 项均返回 200，下载内容与本地发布文件逐字节一致（文本统一换行后比较）。
+- 宣传片线上 HEAD 返回 200、`Content-Type: video/mp4`、`Content-Length: 18396983`，与本地原片大小相同。
+- 仓库已设置官网 Homepage；后续 main 推送会自动更新网站。
 
 ## 后续维护
 
